@@ -1,3 +1,4 @@
+package exercicio;
 public class SmartTV {
     // minhas variaveis
     boolean ligada = false;
