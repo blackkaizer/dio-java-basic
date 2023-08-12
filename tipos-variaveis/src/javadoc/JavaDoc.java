@@ -42,5 +42,7 @@ public class JavaDoc {
             resultado = numero1 + numero2;
         }
         return resultado;
+
+        // javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java
     }
 }
