@@ -22,10 +22,24 @@ public class OperadoresJava {
         int divisao = 15 / 3; // Divisão
         // int modulo = 18 % 3; // Modulo = Verificar resto da divisão
         // double resultado = (10 * 7) + (20 / 4); // Multiplicação + Divisão
+        System.out.println(divisao);
 
         // ATENÇÃO! O operador de adição (+), quando utilizado em variáveis do tipo texto, realizará a “concatenação de textos”.
+        // Concatenação:
 
-        System.out.println(divisao);
+        String nomeCompleto = "LINGUAGEM" + "JAVA"; // Resultado: LINGUAGEMJAVA
+        System.out.println(nomeCompleto);
+
+        // Qual o resultado das expressoes abaixo?
+        String concatenacao = "?"; 
+        concatenacao = 1+1+1+"1"; // Resultado: 31
+        // concatenacao = 1+"1"+1+1; // Resultado: 1111
+        // concatenacao = 1+"1"+1+"1"; // Resultado: 1111
+        // concatenacao = "1"+1+1+1; // Resultado: 1111
+        // concatenacao = "1"+(1+1+1); // Resultado: 13, quando a soma esta entre () ela é realizada primeiro e depois é feito a concatenação.
+        // Quando encontra um String ele entende que deve concatenar e não somar.
+        System.out.println(concatenacao);
+
     }
 
 }
