@@ -1,4 +1,4 @@
-public class OperadoresAula3 {
+public class OperadoresAula3e4 {
     public static void main(String[] args) {
         // Operadores "Unários"
         /*(+) Operador unário de valor positivo – números são positivos sem esse operador explicitamente;
