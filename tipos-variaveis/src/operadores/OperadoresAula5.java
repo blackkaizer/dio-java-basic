@@ -1,3 +1,4 @@
+package operadores;
 public class OperadoresAula5 {
     public static void main(String[] args) {
         // Operador "Ternário"

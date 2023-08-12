@@ -1,3 +1,4 @@
+package operadores;
 public class OperadoresAula6 {
     public static void main(String[] args) {
         // Operadores: Relacionais
