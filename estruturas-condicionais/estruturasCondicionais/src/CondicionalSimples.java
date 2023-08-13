@@ -3,12 +3,12 @@ public class CondicionalSimples {
         
         // Exemplo de condição simples: 
         double saldo = 25.0;
-        double valorSolicitado = 17.0;
+        double valorSolicitado = 20.0;
  
         if(valorSolicitado < saldo)
          saldo = saldo - valorSolicitado;
  
-         System.out.println(saldo);
+         System.out.println("Seu saldo atual é: " + saldo);
          
          /*
           * Vale ressaltar aqui, que no Java, em uma condição**if/else** 
