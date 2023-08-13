@@ -19,7 +19,7 @@ public class EstruturaForEmArrays {
 
         //Forma abreviada - fir / each
         for(String aluno : alunos) {
-            System.out.println(aluno);
+            System.out.println("Nome do aluno é: " + aluno);
         }
     }
 }
