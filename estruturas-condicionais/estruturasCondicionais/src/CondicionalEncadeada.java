@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class condicionalComposta {
+public class CondicionalEncadeada {
         //Exempo de condicional composta:
     public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -15,5 +15,11 @@ public class condicionalComposta {
 		System.out.println("Recuperação");
 	else
 		System.out.println("Reprovado");
+
+    /*
+    * Vale ressaltar aqui, que no Java, em uma condição**if/else** 
+    * às vezes necessitamos adicionar um bloco de { },se a lógica 
+    * conter mais de uma linha.
+    */
     }
 }
