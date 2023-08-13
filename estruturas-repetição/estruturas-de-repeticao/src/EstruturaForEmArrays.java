@@ -1,5 +1,6 @@
 public class EstruturaForEmArrays {
     public static void main(String[] args) {
+        // Todo arrays começa com indice 0;
         String alunos[] = { 
             "FELIPE", 
             "JONAS", 
@@ -16,7 +17,7 @@ public class EstruturaForEmArrays {
          * a quantidade de repetições, a partir da quantidade de elementos do array.
          */
 
-        //Forma abreviada
+        //Forma abreviada - fir / each
         for(String aluno : alunos) {
             System.out.println(aluno);
         }
