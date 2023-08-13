@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "media",
+            "request": "launch",
+            "mainClass": "media",
+            "projectName": "terminal_30f737a4"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,12 +22,6 @@
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            // "args": [
-            //     "Eliton",
-            //     "Fogaça",
-            //     "25",
-            //     "1.85"
-            // ],
             "projectName": "terminal_30f737a4"
         },
         {
